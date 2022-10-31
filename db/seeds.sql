@@ -11,7 +11,7 @@ SELECT * FROM role;
 
 INSERT INTO employee (first_name, last_name,role_id)
 VALUES ( "John", "Doe",1),
-       ( "Jane,", "Smith", 2),
+       ( "Jane", "Smith", 2),
        ( "Allen", "Klein",3);
 
 SELECT * FROM employee;
