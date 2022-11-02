@@ -42,8 +42,15 @@ function Options(){
                     addDepartment();
                 break;
                 case"add a a role":
-                    addRole();
+                    Options();
                 break;
+                case"add an employee":
+                    Options();
+                break;
+                case"update employee role":
+                    Options();
+                break;
+                
             }
         });
 }
